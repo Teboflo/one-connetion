@@ -228,14 +228,14 @@ body {
   overflow: hidden;
 }
 .logotipo {
-  width: 231px;
+  width: 250px;
   color: #fbfbfb;
   position: absolute;
   top: 35px;
   left: 100px;
   font-family: Alegreya Sans SC;
   font-weight: Bold;
-  font-size: 30px;
+  font-size: 28px;
   opacity: 1;
   text-align: left;
 }
@@ -1390,14 +1390,14 @@ body {
   text-align: justified;
 }
 .ptitle {
-  width: 231px;
+  width: 250px;
   color: #000;
   position: absolute;
   top: 230px;
   left: 34px;
   font-family: Alegreya Sans SC;
   font-weight: Bold;
-  font-size: 30px;
+  font-size: 28px;
   opacity: 1;
   text-align: left;
   cursor: default;
@@ -1543,14 +1543,14 @@ body {
   overflow: hidden;
 }
 .hlogotipo {
-  width: 231px;
+  width: 280px;
   color: #000;
   position: absolute;
   top: 22px;
   left: 90px;
   font-family: Alegreya Sans SC;
   font-weight: Bold;
-  font-size: 30px;
+  font-size: 28px;
   opacity: 1;
   text-align: left;
   cursor: default;
