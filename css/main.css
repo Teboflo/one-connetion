@@ -2363,17 +2363,6 @@ body {
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /*========= Responsive Phone Media =======*/
 @media (max-width:768px){
     .menu{
@@ -2422,7 +2411,7 @@ body {
   width: 300px;
   height: 450px;
   top: 150px;
-  left: 70px;
+  left: 50px;
 
 }
 .sliders {
@@ -2433,7 +2422,7 @@ body {
   display: none;
 }
 .pcontent {
-  top: 5px;
+  top: 10px;
   left: 45px;
 }
     
@@ -2441,7 +2430,7 @@ body {
   width: 300px;
   height: 275px;
   top: 400px;
-  left: 60px;
+  left: 50px;
   box-shadow: 10px 7px 2px rgba(28,28,33,0.6)
 }
 .vis, .mis{
@@ -2457,7 +2446,7 @@ body {
   width: 300px;
   height: 275px;
   top: 75px;
-  left: 70px;
+  left: 60px;
   box-shadow: -10px 7px 2px rgba(28,28,33,0.6)
 }
 
@@ -2505,7 +2494,7 @@ body {
 
 .seg_content {
   width: 300px;
-  left: 35px;
+  left: 30px;
 }
 
 .seg_content .carousel-wrapper {
@@ -2572,7 +2561,7 @@ body {
 }
 
 .segtitle {
-  left: 30px;
+  left: 35px;
 }
     
 .title {
@@ -2657,7 +2646,7 @@ body {
 .card {
   width: 200px;
   height: 110px;
-  left: 150px;
+  left: 110px;
   z-index: 1;
   box-shadow: 6px 4px 2px rgba(28,28,33,0.6)
 }
@@ -2688,7 +2677,7 @@ body {
 }
 .brand {
   top:30%;
-  left: 50px;
+  left: 30px;
 }
 .isotipo {
   width: 50px;
@@ -2699,12 +2688,12 @@ body {
 }
   
 .btn {
-    width: 50px;
-    height: 50px;
-    line-height: 55px;
+    width: 55px;
+    height: 55px;
+    line-height: 60px;
     bottom: 60px;
     right: 20px;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .btn1 {
@@ -2717,30 +2706,30 @@ body {
 
 
 .extra-content {
-  width: 70%;
+  width: 80%;
   height: 450px;
 }
 
 .extra-content h3{
     width: 90%;
-    left: 40px;
+    left: 50px;
     font-size: 14px;
 }
 
 .extra-content p{
     width: 90%;
     top: 60px;
-    left: 45px;
+    left: 55px;
     padding: 0 30px;
     font-size: 10px;
 }
 
 .extra-content .contacto-servicio{
     bottom: 15px;
-    left: 80px;
-    width: 100px;
+    left: 120px;
+    width: 120px;
     height: 30px;
-    line-height:-20;
+    line-height:2;
     padding: 5px 0;
     font-size: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.75);
@@ -2754,3 +2743,13 @@ body {
 }
   
 }
+
+
+
+
+
+
+
+
+
+
