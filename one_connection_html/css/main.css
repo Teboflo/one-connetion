@@ -1,0 +1,2756 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body { 
+   width: 100%;
+    height: 100%;
+  font-size: 14px;
+  font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    line-height: 65px;
+    bottom: 40px;
+    right: 20px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+}
+
+.btn:hover{
+    text-decoration: none;
+    background: #fff;
+    color: #0df053; 
+}
+
+.btn1 {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    line-height: 65px;
+    bottom: 120px;
+    right: 20px;
+    background: #e1306c;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+    display: none;
+}
+
+.btn1:hover{
+    text-decoration: none;
+    background: #fff;
+    color: #e1306c; 
+}
+
+//**3689PX**//
+.main {
+  width: 100%;
+  height: 3719px;
+  background: rgba(251,251,251,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.copyright{
+    width: 100%;
+    height: 20px;
+    background: rgba(0,0,0,1);
+    position: absolute;
+    left: 0px;
+    top: 3689px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    font-size: 10px;
+    pointer-events: none;
+    
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 3489px;
+  left: 0px;
+  overflow: hidden;
+}
+.card {
+  width: 325px;
+  height: 110px;
+  background: #0A0A0C;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 51px;
+  left: 850px;
+  overflow: hidden;
+  border-radius: 22px;
+  box-shadow: 12px 8px 2px rgba(28,28,33,0.6)
+}
+.phone {
+  width: 300px;
+  height: 25px;
+  background: #0A0A0C;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 73px;
+  left: 30px;
+  overflow: hidden;
+}
+.phonetext {
+  width: 266px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 5px;
+  left: 34px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.phonelog {
+  width: 24px;
+  height: 24px;
+  background: #0A0A0C;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.correo {
+  width: 344px;
+  height: 24px;
+  background: #0A0A0C;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  overflow: hidden;
+}
+.correotext {
+  width: 310px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 5px;
+  left: 34px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.correolog {
+  width: 24px;
+  height: 24px;
+  background: #0A0A0C;
+  opacity: 1;
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.cardtitle {
+  width: 174px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  font-family: Alegreya Sans SC;
+  font-weight: Bold;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.brand {
+  width: 341px;
+  height: 100px;
+  background: #000;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 10px 10px;
+  margin: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  overflow: hidden;
+}
+.isotipo {
+  width: 80px;
+  height: 80px;
+  background: url("../images/v1_5.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+.logotipo {
+  width: 231px;
+  color: #fbfbfb;
+  position: absolute;
+  top: 35px;
+  left: 100px;
+  font-family: Alegreya Sans SC;
+  font-weight: Bold;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+.servicios {
+  width: 100%;
+  height: 700px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 2789px;
+  left: 0px;
+  overflow: hidden;
+}
+.gestion_administrativa {
+  width: 600px;
+  height: 400px;
+  background: rgba(251,251,251,1);
+  opacity: 1;
+  position: absolute;
+  top: 150px;
+  left: 690px;
+  border-radius: 22px;
+  overflow: hidden;
+}
+.textcta {
+  width: 250px;
+  height: 340px;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: 323px;
+  overflow: hidden;
+}
+.ctaservice2 {
+  width: 230px;
+  height: 60px;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 280px;
+  left: 12px;
+  overflow: hidden;
+}
+.ctatext2 {
+  width: 200px;
+  height: 50px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  border-radius: 22px;
+  overflow: hidden;
+}
+.text2 {
+  width: 152px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: justified;
+}
+.ctabuttom2 {
+ position: absolute;
+    width: 60px;
+    height: 60px;
+    line-height: 65px;
+    top: 0px;
+    left: 170px;
+    background: rgba(58,234,31,1);
+    color: #fbfbfb;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+}
+.ctabuttom2:hover {
+    background: #000;
+    color: rgba(58,234,31,1);
+}
+
+.gacontent {
+  width: 250px;
+  height: 217px;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.gades {
+  width: 250px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: justified;
+}
+.gati {
+  width: 243px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: Alegreya Sans SC;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: justified;
+}
+.gapic {
+  width: 300px;
+  height: 400px;
+  background: url("../images/v44_20.webp");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.gapic:hover{
+    opacity: 1;
+}
+.gestion_de_procesos {
+  width: 600px;
+  height: 400px;
+  background: rgba(251,251,251,1);
+  opacity: 1;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  border-radius: 22px;
+  overflow: hidden;
+}
+.textcta1 {
+  width: 250px;
+  height: 340px;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: 325px;
+  overflow: hidden;
+}
+.ctaservice1 {
+  width: 230px;
+  height: 60px;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 280px;
+  left: 10px;
+  overflow: hidden;
+}
+.ctatext1 {
+  width: 200px;
+  height: 50px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  border-radius: 22px;
+  overflow: hidden;
+}
+.text1 {
+  width: 152px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: justified;
+}
+.ctabuttom1 {
+  position: absolute;
+    width: 60px;
+    height: 60px;
+    line-height: 65px;
+    top: 0px;
+    left: 170px;
+    background: rgba(58,234,31,1);
+    color: #fbfbfb;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.ctabuttom1:hover{
+    color: rgba(58,234,31,1);
+    background: #000;
+}
+
+.gpcontent {
+  width: 250px;
+  height: 217px;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.gpdes {
+  width: 250px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: justified;
+}
+.gpti {
+  width: 209px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  font-family: Alegreya Sans SC;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: justified;
+}
+.gppic {
+  width: 300px;
+  height: 400px;
+  background: url("../images/v44_19.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity:0.8;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.gppic:hover{
+    opacity: 1;
+}
+.serti {
+  width: 154px;
+  color: #fbfbfb;
+  position: absolute;
+  top: 75px;
+  left: 603px;
+  font-family: Alegreya Sans SC;
+  font-weight: Bold;
+  font-size: 35px;
+  opacity: 1;
+  text-align: justified;
+}
+
+/*EXTRA INFO*/
+.extra-info {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+  z-index: 999;
+}
+
+.extra-info.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.extra-content {
+  width: 75%;
+  height: 500px;
+  background: #fff;
+  color: #000;
+  border-radius: 22px;
+  box-shadow: 0 25px 80px rgba(0,0,0,0.5);
+  transform: translateY(50px);
+  transition: transform 0.4s ease;
+}
+
+.extra-info.active .extra-content {
+  transform: translateY(0);
+}
+
+.serimg {
+ position: relative;
+ top: 0;
+ left: 0;
+ width: 20%;
+ height: 100%;
+}
+
+.serimg img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.extra-content h3{
+    position: absolute;
+    width: 80%;
+    top: 20px;
+    left: 200px;
+    padding: 0 30px;
+    text-align: left;
+    justify-content: center;
+    font-family: Arial;
+    font-weight: Regular;
+    font-size: 20px;
+}
+
+.extra-content p{
+    position: absolute;
+    width: 80%;
+    top: 80px;
+    left: 200px;
+    padding: 0 50px;
+    text-align: justify;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.extra-content .bold{
+    font-weight: bold;
+}
+
+.extra-content strong{
+    font-weight: lighter;
+}
+
+.extra-content .contacto-servicio{
+    position: absolute;
+    background:rgba(58,234,31,1); 
+    bottom: 50px;
+    left: 500px;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 12px;
+    line-height: 10px;
+    font-family: Arial;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.75);
+}
+
+.extra-content .contacto-servicio:hover{
+    background: rgba(0,0,0,1);
+    transform: translateY(4px);
+}
+
+
+.close-extra {
+  position: absolute;
+  top: 10px;
+  right: 30px;    
+  padding: 10px 20px;
+  border: none;
+  background: rgba(58,234,31,1);
+  color: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  transition: background 0.3s;
+}
+
+
+.close-extra:hover {
+  background: #000;
+  transform: translateY(4px);
+}
+
+
+
+.seguros {
+  width: 100%;
+  height: 889px;
+  background: #000;
+  opacity: 1;
+  position: absolute;
+  top: 1900px;
+  left: 0px;
+  overflow: hidden;
+}
+.seg_content {
+  width: 1110px;
+  height: 500px;
+  background: rgba(0,0,0,0.85);
+  padding: 10px 10px;
+  margin: 20px;
+  opacity: 1;
+  position: absolute;
+  top: 243px;
+  left: 100px;
+  border-radius: 12px;
+  box-shadow: 13px 69px 155px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.seg1 {
+  width: 200px;
+  height: 384px;
+  background: #0A0A0C;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  overflow: hidden;
+}
+.segt{
+  width: 205px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 260px;
+  left: 0px;
+  font-family: Alegreya Sans SC;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.pic1{
+  width: 200px;
+  height: 200px;
+  background: url("../images/img/pic1.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.8;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.pic1:hover, .pic2:hover, .pic3:hover,.pic4:hover,.pic5:hover, .pic6:hover,.pic7:hover,.pic8:hover, .pic9:hover, .pic10:hover{
+    opacity: 1;
+}
+.des{
+  width: 200px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 300px;
+  left: 10px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: justified;
+}
+.seg2 {
+  width: 200px;
+  height: 384px;
+  background: #0A0A0C;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 235px;
+  overflow: hidden;
+}
+
+.pic2 {
+  width: 200px;
+  height: 200px;
+  background: url("../images/img/pic2.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.8;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.seg3 {
+  width: 200px;
+  height: 384px;
+  background: #0A0A0C;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 455px;
+  overflow: hidden;
+}
+
+.pic3 {
+  width: 200px;
+  height: 200px;
+  background: url("../images/img/pic3.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.8;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.seg4 {
+  width: 200px;
+  height: 384px;
+  background:#0A0A0C;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 675px;
+  overflow: hidden;
+}
+
+.pic4 {
+  width: 200px;
+  height: 200px;
+  background: url("../images/img/pic4.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.8;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.seg5 {
+  width: 200px;
+  height: 384px;
+  background:#0A0A0C;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 895px;
+  overflow: hidden;
+}
+
+.pic5 {
+  width: 200px;
+  height: 200px;
+  background: url("../images/img/pic5.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.8;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.seg6 {
+  width: 200px;
+  height: 384px;
+  background:#0A0A0C;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 445px;
+  left: 15px;
+  overflow: hidden;
+}
+
+.pic6 {
+  width: 200px;
+  height: 200px;
+  background: url("../images/img/pic6.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.8;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+
+.seg7 {
+  width: 200px;
+  height: 384px;
+  background:#0A0A0C;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 445px;
+  left: 235px;
+  overflow: hidden;
+}
+
+.pic7 {
+  width: 200px;
+  height: 200px;
+  background: url("../images/img/pic7.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.8;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+
+.seg8 {
+  width: 200px;
+  height: 384px;
+  background:#0A0A0C;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 445px;
+  left: 455px;
+  overflow: hidden;
+}
+
+.pic8 {
+  width: 200px;
+  height: 200px;
+  background: url("../images/img/pic8.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.8;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+
+.seg9 {
+  width: 200px;
+  height: 384px;
+  background:#0A0A0C;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 445px;
+  left: 675px;
+  overflow: hidden;
+}
+
+.pic9 {
+  width: 200px;
+  height: 200px;
+  background: url("../images/img/pic9.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.8;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+
+.seg10 {
+  width: 200px;
+  height: 384px;
+  background:#0A0A0C;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 445px;
+  left: 895px;
+  overflow: hidden;
+}
+
+.pic10 {
+  width: 200px;
+  height: 200px;
+  background: url("../images/img/pic10.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.8;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+
+.segtitle {
+  width: 100%;
+  height: 163px;
+  background: rgba(0,0,0,0);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 100px;
+  left: 130px;
+  overflow: hidden;
+}
+.title {
+  width: 139px;
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  left: 475px;
+  font-family: Alegreya Sans SC;
+  font-weight: Bold;
+  font-size: 35px;
+  opacity: 1;
+  text-align: justified;
+}
+.segdes {
+  width: 100%;
+  color: #fff;
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: justified;
+}
+.valores {
+  width: 100%;
+  height: 500px;
+  background:#000;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1450px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.valtitle {
+  width: 326px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 75px;
+  left: 517px;
+  font-family: Alegreya Sans SC;
+  font-weight: Bold;
+  font-size: 35px;
+  opacity: 1;
+  text-align: justified;
+}
+
+/* === Scroll horizontal de valores con efecto de exposición central === */
+
+.valcontent {
+  position: relative !important;
+  margin-top: 200px;
+  overflow: hidden;
+}
+
+/* Contenedor desplazable */
+.valcontent-scrollable {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  padding: 20px 80px;
+  box-sizing: border-box;
+}
+
+/* Oculta scrollbar */
+.valcontent-scrollable::-webkit-scrollbar {
+  display: none;
+}
+.valcontent-scrollable {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Valores (v1–v7) */
+.valcontent-scrollable > div {
+  flex: 0 0 300px;
+  height: 75px;
+  margin-right: 30px;
+  border-radius: 12px;
+  box-shadow: 5px 6px 4px rgba(0, 0, 0, 0.35);
+  position: relative;
+  scroll-snap-align: center;
+  transition: transform 0.4s ease, opacity 0.4s ease, filter 0.4s ease;
+}
+
+/* Estado normal (laterales difuminados) */
+.valcontent-scrollable > div {
+  opacity: 0.6;
+  transform: scale(0.9);
+  filter: blur(1px) brightness(0.8);
+}
+
+/* Valor activo (centrado y enfocado) */
+.valcontent-scrollable > div.active {
+  opacity: 1;
+  transform: scale(1.1);
+  filter: blur(0px) brightness(1.1);
+  z-index: 5;
+}
+
+/* Colores y comportamiento original */
+.v1, .v2, .v5, .v6 { background: rgba(58,234,31,1); cursor: pointer;}
+.v3, .v4, .v7 { background: rgba(255,255,255,1); cursor: pointer;}
+
+.v1:hover, .v2:hover, .v5:hover, .v6:hover { background: rgba(0,0,0,1); }
+.v3:hover, .v4:hover, .v7:hover { background: rgba(58,234,31,1); }
+
+/* Texto centrado */
+.val1, .val2, .val5, .val6 {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fbfbfb;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.val3, .val4, .val7 {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  padding: 0 10px;
+}
+
+/* Botones */
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.7);
+  color: #fbfbfb;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.scroll-btn:hover {
+  background: rgba(58,234,31,1);
+  color: #000;
+}
+
+.scroll-btn.left { left: 10px; }
+.scroll-btn.right { right: 10px; }
+
+/* === Ajuste para móviles: oculta botones y activa scroll táctil === */
+@media (max-width: 768px) {
+  .scroll-btn {
+    display: none !important;
+  }
+
+  .valcontent-scrollable {
+    padding: 5px; /* más cómodo en pantallas pequeñas */
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* desplazamiento fluido táctil */
+  }
+
+  .valcontent-scrollable > div {
+    flex: 0 0 85%;
+    margin-right: 7px;
+    transform: scale(0.95);
+  }
+
+  .valcontent-scrollable > div.active {
+    transform: scale(1.05);
+  }
+}
+
+.vym {
+  width: 100%;
+  height: 700px;
+  background: url("../images/v13_2.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 750px;
+  left: 0px;
+  overflow: hidden;
+}
+
+/* === Suaviza y activa el entorno 3D === */
+.vicontent, .micontent {
+  will-change: transform;
+  transition: transform 0.3s ease-out;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+
+.vicontent {
+  width: 450px;
+  height: 300px;
+  background: #0A0A0C;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 175px;
+  left: 750px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 25px 15px 2px rgba(28,28,33,0.6)
+}
+.vis, .mis {
+  width: 350px;
+  color: rgba(251,251,251,1);
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: justified;
+    
+}
+.vititle, .mititle {
+  width: 100px;
+  color: #fbfbfb;
+  position: absolute;
+  top: 15px;
+  left: 180px;
+  font-family: Alegreya Sans SC;
+  font-weight: Bold;
+  font-size: 35px;
+  opacity: 1;
+  text-align: left;
+}
+.micontent {
+  width: 450px;
+  height: 300px;
+  background: #0A0A0C;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 175px;
+  left: 150px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: -25px 15px 2px rgba(28,28,33,0.6)
+}
+
+.header {
+  width: 100%;
+  height: 750px;
+  background: url("../images/v1_3.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.content {
+  width: 1100px;
+  height: 540px;
+  background: rgba(251,251,251,1);
+  opacity: 1;
+  position: absolute;
+  top: 125px;
+  left: 130px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.sliders {
+  width: 400px;
+  height: 500px;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: -15px;
+  left: 635px;
+  overflow: hidden;
+  border-radius: 22px;
+}
+
+.slide1 {
+  width: 400px;
+  height: 500px;
+  background: rgba(0,0,0,1);
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 50px;
+  left: 0px;
+  overflow: hidden;
+  border-radius: 22px;
+}
+
+.carruseles1 {
+    width: 500%;
+    height: 100%;
+    display: flex;  
+}
+
+.slider-s1{
+    width: calc(100%/5);
+}
+
+.slider-s1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    image-rendering: auto;
+}
+
+.btn-left1, .btn-right1{
+    display:flex;
+    position: absolute;
+    top: 45%;
+    font-size: 1.5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #3AEA1F;
+    transform: translateX(0,-50%);
+    transition: .5s ease;
+    user-select: none;
+}
+
+.btn-left1:hover, .btn-right1:hover{
+    background-color: #3AEA1F;
+    opacity: 75%;
+    color: #fff;
+}
+
+.btn-right1{
+    right: 10px;
+    
+}
+
+.btn-left1{
+    left: 10px;
+}
+
+/*====Botones===*/
+/* Ocultar botones hasta hover */
+.btn-left1, .btn-right1 {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.slide1:hover .btn-left1,
+.slide1:hover .btn-right1 {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.pcontent {
+  width: 300px;
+  height: 500px;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  overflow: hidden;
+}
+.cta-header {
+  width: 150px;
+  height: 50px;
+  background: rgba(58,234,31,1);
+  opacity: 1;
+  position: absolute;
+  top: 400px;
+  left: 60px;
+  border-radius: 12px;
+  box-shadow: 6px 6px 3px rgba(0, 0, 0, 0.35);
+  overflow: hidden; 
+  color: rgba(251,251,251,1);
+  position: absolute;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 16px;
+  opacity: 1;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.cta-header:hover{
+    background: #000;
+    box-shadow: 8px 8px 9px rgba(0, 0, 0, 0.75);
+    transform: translateY(4px);
+}
+
+/* === Overlay específico para One Connection === */
+.popup-info-oneconnection {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(6px);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.4s ease;
+}
+
+.popup-info-oneconnection.active {
+  display: flex;
+  animation: fadeInPopup 0.4s ease forwards;
+}
+
+.popup-content-oneconnection {
+  background: #000;
+  width: 80%;
+  height: 70%;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 60px rgba(0,0,0,0.4);
+  text-align: justify;
+  position: relative;
+  transform: scale(0.95);
+  transition: transform 0.4s ease;
+}
+
+.popup-info-oneconnection.active .popup-content-oneconnection {
+  transform: scale(1);
+}
+
+.popup-content-oneconnection h3 {
+  position: absolute;
+  top: 40px;
+  left: 80px;
+  font-family: Arial;
+  font-weight: lighter;
+  letter-spacing: normal;
+  font-size: 22px;
+  color: #fff;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.popup-content-oneconnection p {
+  position: absolute;
+  top: 40px;
+  left: 35%;
+  width: 55%;
+  height: 300px;
+  font-family: Arial;
+  font-size: 10px;
+  font-weight: lighter;
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.popup-content-oneconnection p strong{
+    font-weight: bold;
+    color: rgba(58,234,31,1);
+}
+
+.cv-img-1{
+    position: absolute;
+    width: 475px;
+    height: 270px;
+    background: url(../images/cv1.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 12px;
+    top: 130px;
+    left: 80px;
+    filter: grayscale(100%);
+    object-fit: cover;
+}
+
+.cv-img-1:hover{
+    filter: none;
+}
+
+.cv-img-2{
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    background: url(../images/cv2.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 12px;
+    top: 120px;
+    left: 630px;
+    filter: grayscale(100%);
+    object-fit: cover;
+}
+
+.cv-img-2:hover{
+    filter: none;
+}
+
+.cv-buttom{
+    position: absolute;
+    width: 475px;
+    height: 50px;
+    padding: 5px;
+    top:420px;
+    left: 80px ;
+    line-height: 45px;
+    background: #0077b5;
+    color: #fff;
+    border-radius: 12px;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+}
+
+.cv-buttom:hover{
+    text-decoration: none;
+    background: #fff;
+    color: #0077b5; 
+}
+
+.close-popup-oneconnection {
+  display: none;
+}
+
+
+.pdes {
+  width: 283px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 276px;
+  left: 18px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 15px;
+  opacity: 1;
+  text-align: justified;
+}
+.ptitle {
+  width: 231px;
+  color: #000;
+  position: absolute;
+  top: 230px;
+  left: 34px;
+  font-family: Alegreya Sans SC;
+  font-weight: Bold;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+  cursor: default;
+}
+.perfilpic {
+  width: 200px;
+  height: 200px;
+  background: url("../images/v1_5.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+.head {
+  width: 100%;
+  height: 100px;
+  background: rgba(251,251,251,1);
+  padding: 10px 50px;
+  margin: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  overflow: hidden;
+}
+.menu {
+  width: 530px;
+  height: 60px;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 40px 0;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 750px;
+  overflow: hidden;
+}
+.con {
+  width: 81px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 405px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 20px;
+  padding-bottom: 9px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+.con:hover{
+    border-bottom: 2px solid #000;
+}
+.ser {
+  width: 82px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 273px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 20px;
+  padding-bottom: 9px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+.ser:hover{
+   border-bottom: 2px solid #000; 
+}
+.seg {
+  width: 82px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 141px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 20px;
+  padding-bottom: 9px;
+   border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+.seg:hover {
+    border-bottom: 2px solid #000;
+}
+.ace {
+  width: 91px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: Arial;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 20px;
+  padding-bottom: 9px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.ace:hover {
+    border-bottom: 2px solid #000;
+}
+
+
+
+.hbrand {
+  width: 321px;
+  height: 80px;
+  background:#fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 75px;
+  overflow: hidden;
+}
+.hlogotipo {
+  width: 231px;
+  color: #000;
+  position: absolute;
+  top: 22px;
+  left: 90px;
+  font-family: Alegreya Sans SC;
+  font-weight: Bold;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+  cursor: default;
+}
+.otro{
+    color: rgba(58,234,31,1);
+}
+.otro2{
+    color: rgba(0,0,0,1);
+}
+.hisotipo {
+  width: 80px;
+  height: 80px;
+  background: url("../images/v1_5.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+/* === PARALLAX HEADER === */
+/* Aplica efecto al .content y a sus hijos, sin modificar layout base */
+
+.header {
+  perspective: 1000px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Activa el parallax sin alterar posiciones */
+.content.parallax-active {
+  transform: translateZ(0);
+  transition: transform 0.1s ease-out;
+  will-change: transform;
+}
+
+/* Movimiento del contenedor padre */
+.header .content.parallax-active {
+  transform: translateY(var(--parallax-parent, 0px));
+  transition: transform 0.1s ease-out;
+}
+
+/* Capas internas (hijas) */
+.content.parallax-active .sliders {
+  transform: translateY(var(--parallax-depth1, 0px));
+  transition: transform 0.1s ease-out;
+}
+
+.content.parallax-active .pcontent {
+  transform: translateY(var(--parallax-depth2, 0px));
+  transition: transform 0.1s ease-out;
+}
+
+
+/* ======== Carrusel 3D dentro de .seg_content ======== */
+
+.seg_content {
+  position: relative;
+  overflow: hidden;
+  perspective: 2000px; /* profundidad 3D */
+}
+
+.seg_content .carousel-wrapper {
+  width: calc(100%);
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.seg_content .carousel-track {
+  display: flex;
+  align-items: center;
+  gap: -150px;
+  padding: 10px 20px;
+  transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+  transform-style: preserve-3d; /* necesario para profundidad */
+}
+
+/* tarjetas base */
+.seg_content .carousel-track > div[class^="seg"] {
+  position: relative !important;
+  top: auto !important;
+  left: 450px !important;
+  width: 200px;
+  height: 384px;
+  margin: 0;
+  flex: 0 0 auto;
+  opacity: 0.5;
+  transform: scale(0.9) translateZ(-10px);
+  transition: transform 0.6s ease, opacity 0.6s ease, box-shadow 0.6s ease;
+  z-index: 1;
+  border-radius: 12px;
+}
+
+/* carta activa (centro) */
+.seg_content .carousel-track > div.active {
+  transform: translateZ(0px) scale(1.10);
+  opacity: 1;
+  z-index: 10;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.6);
+}
+
+/* izquierda y derecha inmediatos */
+.seg_content .carousel-track > div.prev {
+  transform: rotateY(-25deg) translateX(-15px) translateZ(5px) scale(0.90);
+  opacity: 0.85;
+  z-index: 5;
+}
+.seg_content .carousel-track > div.next {
+  transform: rotateY(25deg) translateX(15px) translateZ(-5px) scale(0.90);
+  opacity: 0.85;
+  z-index: 5;
+}
+
+/* seg más alejados — degradado progresivo */
+.seg_content .carousel-track > div.prev2 {
+  transform: rotateY(-20deg) translateX(-5px) translateZ(10px) scale(0.80);
+  opacity: 0.60;
+}
+.seg_content .carousel-track > div.next2 {
+  transform: rotateY(20deg) translateX(5px) translateZ(-10px) scale(0.80);
+  opacity: 0.60;
+}
+
+/* botones */
+.seg_content .scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.05);
+  color: #fff;
+  border: none;
+  font-size: 36px;
+  width: 54px;
+  height: 84px;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 50;
+  transition: background 0.25s ease;
+}
+.seg_content .scroll-btn:hover { background: rgba(255,255,255,0.2); }
+.seg_content .scroll-btn.left { left: 8px; }
+.seg_content .scroll-btn.right { right: 8px; }
+
+/* difuminado lateral */
+.seg_content::before,
+.seg_content::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 120px;
+  pointer-events: none;
+  z-index: 5;
+}
+.seg_content::before { left: 0; background: linear-gradient(to right, rgba(0,0,0,1), transparent); }
+.seg_content::after  { right:0; background: linear-gradient(to left,  rgba(0,0,0,1), transparent); }
+
+
+/*========= Responsive Tablet Media =======*/
+@media (max-width:1024px){
+    .menu{
+        left: 540px;
+    }
+    
+    .ace{
+        font-size: 14px;
+    }
+    
+    .seg{
+        font-size: 14px;
+        left: 100px;
+    }
+    
+    .ser{
+        font-size: 14px;
+        left: 200px;
+    }
+    
+    .con{
+        font-size: 14px;
+        left: 300px;
+    }
+    
+    .hbrand {
+  left: 40px;
+}
+.hlogotipo {
+  font-size: 28px;
+}
+
+.hisotipo {
+  width: 70px;
+  height: 70px;
+}
+    
+.content {
+  width: 800px;
+  height: 500px;
+  left: 100px;
+
+}
+.sliders {
+  width: 300px;
+  height: 400px;
+  top: 30px;
+  left: 440px;
+}
+
+.slide1 {
+  width: 300px;
+  height: 400px;
+}
+.pcontent {
+  width: 250px;
+  height: 400px;
+  top: 30px;
+  left: 100px;
+}
+.cta {
+  width: 130px;
+  height: 40px;
+  top: 350px;
+  left: 30px;
+  font-size: 14px;
+  line-height: 40px;
+
+}
+
+.pdes {
+  width: 200px;
+  top: 240px;
+  left: 14px;
+  font-size: 12px;
+}
+.ptitle {
+  width: 210px;
+  top: 205px;
+  left: 20px;
+  font-size: 22px;
+}
+.perfilpic {
+  width: 150px;
+  height: 150px;
+  top: 50px;
+  left: 30px;
+}
+    
+  .vicontent {
+  width: 350px;
+  height: 250px;
+  top: 200px;
+  left: 550px;
+}
+.vis, .mis {
+  width: 300px;
+  top: 70px;
+  left: 30px;
+  font-size: 12px;
+}
+.vititle {
+  width: 94px;
+  top: 15px;
+  left: 140px;
+  font-size: 30px;
+}
+.micontent {
+  width: 350px;
+  height: 250px;
+  top: 200px;
+  left: 100px;
+}
+
+.mititle {
+  top: 15px;
+  left: 140px;
+  font-size: 30px;
+}
+
+.valtitle {
+  width: 326px;
+  top: 75px;
+  left: 385px;
+  font-size: 30px;
+}
+
+
+/* Estado normal (laterales difuminados) */
+.valcontent-scrollable > div {
+  transform: scale(0.8);
+}
+
+/* Valor activo (centrado y enfocado) */
+.valcontent-scrollable > div.active {
+  transform: scale(1);
+}
+
+/* Texto centrado */
+.val1, .val2, .val5, .val6 {
+  font-size: 18px;
+}
+
+.val3, .val4, .val7 {
+  font-size: 18px;
+}
+
+/* Botones */
+.scroll-btn {
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+}
+
+.seg_content {
+  width: 800px;
+  height: 500px;
+  top: 250px;
+  left: 80px;
+}
+
+/* tarjetas base */
+.seg_content .carousel-track > div[class^="seg"] {
+  left: 610px !important;
+}
+
+/* carta activa (centro) */
+.seg_content .carousel-track > div.active {
+  transform: translateZ(0px) scale(1);
+}
+
+/* izquierda y derecha inmediatos */
+.seg_content .carousel-track > div.prev {
+  transform: rotateY(-25deg) translateX(-15px) translateZ(5px) scale(0.80);
+}
+.seg_content .carousel-track > div.next {
+  transform: rotateY(25deg) translateX(15px) translateZ(-5px) scale(0.80);
+}
+
+/* seg más alejados — degradado progresivo */
+.seg_content .carousel-track > div.prev2 {
+  transform: rotateY(-20deg) translateX(-5px) translateZ(10px) scale(0.70);
+}
+.seg_content .carousel-track > div.next2 {
+  transform: rotateY(20deg) translateX(5px) translateZ(-10px) scale(0.70);
+}
+
+/* botones */
+.seg_content .scroll-btn {
+  font-size: 25px;
+  width: 44px;
+  height: 74px;
+}
+/* difuminado lateral */
+.seg_content::before,
+.seg_content::after {
+  width: 100px;
+}
+
+.title {
+  top: 40px;
+  left: 310px;
+  font-size: 30px;
+}
+.segdes {
+  display: none;
+}
+ 
+.gestion_administrativa {
+  width: 450px;
+  height: 350px;
+  top: 200px;
+  left: 510px;
+}
+.textcta {
+  width: 250px;
+  height: 340px;;
+  top: 40px;
+  left: 200px;
+}
+.ctaservice2 {
+  width: 230px;
+  height: 60px;
+  top: 220px;
+  left: 10px;
+}
+.ctatext2 {
+  width: 150px;
+  height: 50px;
+  left: 20px;
+}
+.text2 {
+  width: 150px;
+  top: 16px;
+  left: 20px;
+  font-size: 14px;
+}
+.ctabuttom2 {
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    top: 5px;
+    left: 160px;
+    font-size: 30px;
+}
+
+.gacontent {
+  width: 200px;
+  height: 217px;
+  top: 0px;
+  left: 20px;
+}
+.gades {
+  width: 200px;
+  top: 70px;
+  left: 0px;
+  font-size: 14px;
+}
+.gati {
+  width: 200px;
+  top: 0px;
+  left: 0px;
+  font-size: 20px;
+}
+.gapic {
+  width: 200px;
+  height: 350px;
+}
+
+.gapic:hover{
+    opacity: 1;
+}
+.gestion_de_procesos {
+  width: 450px;
+  height: 350px;
+  top: 200px;
+  left: 40px;
+}
+.textcta1 {
+  width: 250px;
+  height: 340px;;
+  top: 40px;
+  left: 200px;
+}
+.ctaservice1 {
+  width: 230px;
+  height: 60px;
+  top: 220px;
+  left: 10px;
+}
+.ctatext1 {
+  width: 150px;
+  height: 50px;
+  left: 20px;
+}
+.text1 {
+  width: 150px;
+  top: 16px;
+  left: 20px;
+  font-size: 14px;
+}
+.ctabuttom1 {
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    top: 5px;
+    left: 160px;
+    font-size: 30px;
+}
+
+.gpcontent {
+  width: 200px;
+  height: 217px;
+  top: 0px;
+  left: 20px;
+}
+.gpdes {
+  width: 200px;
+  top: 70px;
+  left: 0px;
+  font-size: 14px;
+}
+.gpti {
+  width: 200px;
+  top: 0px;
+  left: 10px;
+  font-size: 20px;
+}
+.gppic {
+  width: 200px;
+  height: 350px;
+}
+
+.serti {
+  left: 450px;
+  font-size: 30px;
+}
+ 
+.card {
+  top: 51px;
+  left: 575px;
+}
+    
+.phonetext {
+  font-size: 12px;
+}
+
+.correotext {
+  font-size: 12px;
+}
+.correolog {
+  width: 24px;
+  height: 24px;
+  background: #0A0A0C;
+  opacity: 1;
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.cardtitle {
+  top: 10px;
+  font-size: 20px;
+}
+.brand {
+  left: 60px;
+}
+.isotipo {
+  width: 70px;
+  height: 70px;
+}
+.logotipo {
+  top: 30px;
+  font-size: 28px;
+}
+  
+.btn {
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    bottom: 40px;
+    right: 20px;
+    font-size: 30px;
+}
+
+.btn1 {
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    bottom: 100px;
+    right: 20px;
+    font-size: 30px;
+}
+
+.btn2 {
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    bottom: 160px;
+    right: 20px;;
+    font-size: 30px;
+}
+
+
+
+.extra-content h3{
+    left: 160px;
+    font-size: 18px;
+}
+
+.extra-content p{
+    left: 150px;
+    font-size: 14px;
+}
+
+.extra-content .contacto-servicio{ 
+    bottom: 50px;
+    left: 350px;
+}    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*========= Responsive Phone Media =======*/
+@media (max-width:768px){
+    .menu{
+        left: 300px;
+        display: none;
+    }
+    
+    .ace{
+        font-size: 12px;
+        display: none;
+    }
+    
+    .seg{
+        font-size: 12px;
+        left: 100px;
+        display: none;
+    }
+    
+    .ser{
+        font-size: 12px;
+        left: 200px;
+        display: none;
+    }
+    
+    .con{
+        font-size: 12px;
+        left: 300px;
+        display: none;
+    }
+    
+    .hbrand {
+  left: 45px;
+}
+.hlogotipo {
+  font-size: 20px;
+  left: 70px;
+}
+
+.hisotipo {
+  width: 60px;
+  height: 60px;
+  top: 3px;
+}
+    
+.content {
+  width: 300px;
+  height: 450px;
+  top: 150px;
+  left: 20px;
+
+}
+.sliders {
+  display: none;
+}
+
+.slide1 {
+  display: none;
+}
+.pcontent {
+  top: 5px;
+  left: 50px;
+}
+    
+  .vicontent {
+  width: 300px;
+  height: 275px;
+  top: 400px;
+  left: 10px;
+  box-shadow: 10px 7px 2px rgba(28,28,33,0.6)
+}
+.vis, .mis{
+  width: 250px;
+  top: 75px;
+  left: 30px;
+}
+.vititle {
+  top: 15px;
+  left: 100px;
+}
+.micontent {
+  width: 300px;
+  height: 275px;
+  top: 75px;
+  left: 20px;
+  box-shadow: -10px 7px 2px rgba(28,28,33,0.6)
+}
+
+.mititle {
+  top: 15px;
+  left: 100px;
+}
+
+.valtitle {
+  left: 70px;
+  font-size: 25px;
+}
+
+.valcontent-scrollable {
+  padding: 5px 30px;
+  box-sizing: border-box;
+}
+
+/* Estado normal (laterales difuminados) */
+.valcontent-scrollable > div {
+  transform: scale(0.5);
+  left:0px;
+}
+
+/* Valor activo (centrado y enfocado) */
+.valcontent-scrollable > div.active {
+  transform: scale(0.7);
+  left:-30px;
+}
+.v1, .v2, .v5, .v6 { background: rgba(58,234,31,1); cursor: pointer;}
+.v3, .v4, .v7 { background: rgba(255,255,255,1); cursor: pointer;}
+    
+/* Texto centrado */
+.val1, .val2, .val5, .val6 {
+  font-size: 20px;
+  padding: 0px;
+}
+
+.val3, .val4, .val7 {
+  font-size: 20px;
+  padding: 0px;
+}
+
+/* ======== Carrusel 3D dentro de .seg_content ======== */
+
+.seg_content {
+  width: 300px;
+  left: 0px;
+}
+
+.seg_content .carousel-wrapper {
+  width:100%;
+}
+
+.seg_content .carousel-track {
+  gap: 0px;
+  padding: 0px 0px;
+}
+
+/* tarjetas base */
+.seg_content .carousel-track > div[class^="seg"] {
+  left: 860px !important;
+}
+
+/* carta activa (centro) */
+.seg_content .carousel-track > div.active {
+  transform: translateZ(0px) scale(1);
+}
+
+/* izquierda y derecha inmediatos */
+.seg_content .carousel-track > div.prev {
+  transform: rotateY(-25deg) translateX(-15px) translateZ(5px) scale(0.80);
+}
+.seg_content .carousel-track > div.next {
+  transform: rotateY(25deg) translateX(15px) translateZ(-5px) scale(0.80);
+}
+
+/* seg más alejados — degradado progresivo */
+.seg_content .carousel-track > div.prev2 {
+  transform: rotateY(-20deg) translateX(-5px) translateZ(10px) scale(0.70);
+}
+.seg_content .carousel-track > div.next2 {
+  transform: rotateY(20deg) translateX(5px) translateZ(-10px) scale(0.70);
+}
+
+/* botones */
+.seg_content .scroll-btn {
+    display: flex !important;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 200;
+}
+
+/* difuminado lateral */
+.seg_content::before,
+.seg_content::after {
+  height: 100%;
+  width: 60px;
+}
+
+/* botones */
+.seg_content .scroll-btn {
+  font-size: 20px;
+  width: 34px;
+  height: 64px;
+}
+/* difuminado lateral */
+.seg_content::before,
+.seg_content::after {
+  width: 30px;
+}
+
+.segtitle {
+  left: 0px;
+}
+    
+.title {
+  top: 50px;
+  left: 115px;
+  font-size: 25px;
+}
+
+.gestion_administrativa {
+  width: 300px;
+  height: 300px;
+  top: 400px;
+  left: 20px;
+}
+.textcta {
+  top: 20px;
+  left: 50px;
+}
+.ctaservice2 {
+  width: 230px;
+  height: 60px;
+  top: 220px;
+  left: 10px;
+}
+.ctatext2 {
+ display: none;
+}
+.text2 {
+  display: none;
+}
+.ctabuttom2 {
+    top: 0px;
+    left: 80px;
+}
+
+.gati {
+  top: 10px;
+}
+.gapic {
+  width: 50px;
+  height: 300px;
+}
+
+.gestion_de_procesos {
+  width: 300px;
+  height: 300px;
+  top: 60px;
+  left: 20px;
+}
+.textcta1 {
+  top: 20px;
+  left: 50px;
+}
+.ctaservice1 {
+  width: 230px;
+  height: 60px;
+  top: 220px;
+  left: 10px;
+}
+.ctatext1 {
+  display: none;
+}
+.text1 {
+  display: none;
+}
+.ctabuttom1 {
+    top: 0px;
+    left: 80px;
+}
+
+.gppic {
+  width: 50px;
+  height: 300px;
+}
+
+.serti {
+  top: 20px;
+  left: 120px;
+  font-size: 25px;
+}
+ 
+.card {
+  width: 200px;
+  height: 110px;
+  left: 100px;
+  z-index: 1;
+  box-shadow: 6px 4px 2px rgba(28,28,33,0.6)
+}
+.phone {
+  top: 70px;
+  left: 10px;
+}
+.phonetext {
+  top: 5px;
+  left: 30px;
+  font-size: 10px;
+}
+
+.correo {
+  top: 40px;
+  left: 10px;
+}
+.correotext {
+  top: 5px;
+  left: 30px;
+  font-size: 10px;
+}   
+    
+.cardtitle {
+  top: 7px;
+  left: 15px;
+  font-size: 16px;
+}
+.brand {
+  top:30%;
+  left: 10px;
+}
+.isotipo {
+  width: 50px;
+  height: 50px;
+}
+.logotipo {
+  display: none;
+}
+  
+.btn {
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    bottom: 60px;
+    right: 10px;
+    font-size: 25px;
+}
+
+.btn1 {
+    display: none;
+}
+
+.btn2 {
+   display: none;
+}
+
+
+.extra-content {
+  width: 50%;
+  height: 450px;
+}
+
+.extra-content h3{
+    width: 90%;
+    left: 30px;
+    font-size: 14px;
+}
+
+.extra-content p{
+    width: 100%;
+    top: 60px;
+    left: 25px;
+    padding: 0 30px;
+    font-size: 10px;
+}
+
+.extra-content .contacto-servicio{
+    bottom: 15px;
+    left: 90px;
+    width: 100px;
+    height: 30px;
+    line-height:-20;
+    padding: 5px 0;
+    font-size: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.75);
+}
+
+.close-extra {
+  top: 5px;
+  right: 10px;    
+  padding: 3px 6px;
+  font-size: 12px;
+}
+  
+}
