@@ -2150,13 +2150,13 @@ body {
 
 
 .seguros {
-  width: 400px;
-  height: 500px;
+  width: 325px;
+  height: 450px;
 }
 
 .seguros .slide-seguros .back-seguros{
     width: 150px;
-    height: 250px;
+    height: 200px;
     top: 70%;
 }
 
